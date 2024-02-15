@@ -27,7 +27,7 @@ function App() {
                     </MediaPlayer>
                 )}
                 {videoType === "html" && (
-                    <video width={800} height={450} controls>
+                    <video width={"100%"} controls>
                         <source src={videoUrl} type={"video/mp4"}></source>
                     </video>
                 )}
